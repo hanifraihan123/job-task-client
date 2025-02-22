@@ -35,7 +35,7 @@ const AddTask = () => {
           <label className="label">
             <span className="label-text">Description</span>
           </label>
-          <input type="text" {...register("description")} placeholder="Enter Description" className="input input-bordered" required />
+          <input type="text" {...register("description")} placeholder="Enter Description" className="input input-bordered" />
         </div>
         <div className="lg:flex md:flex gap-4">
         <div className="lg:w-1/3 md:w-1/3">
